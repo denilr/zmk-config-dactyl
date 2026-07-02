@@ -27,11 +27,17 @@
         abc { // Layer 1
             display-name = "ABC";	
 // ----------------------------------------------
-// |      A      |       B       |       C      |
-// |    &trans   |    &trans     |     &trans   |
+// |  Q  |   W   |   E   |  R   |  T   |                 
+// |  A  |   S   |   D   |  F   |  G   |                 
+// |  Z  |   X   |   C   |  V   |  B   |                  
+//       |  ALT  |  GUI  |  1   |  2   |3  |  4  |			
+//                                     |  5  |  6  | 
             bindings = <
-                &kp A     &kp B     &kp C
-                &trans    &trans    &trans
+                &kp Q   &kp W   &kp E   &kp R   &kp T  
+                &kp A   &kp S   &kp D   &kp F   &kp G  
+                &kp Z   &kp X   &kp C   &kp V   &kp B 
+                        &kp ALT	&kp GUI	&kp 1   &kp 2   &kp 3   &kp 4
+                                                        &kp 5   &kp 6
             >;
         };
 		
@@ -39,11 +45,17 @@
         xyz { // Layer 2
             display-name = "XYZ";	
 // ----------------------------------------------
-// |        X       |      Y       |      Z     |
-// |   LEFT CTRL    |  LEFT ALT    |   &trans   |
+// |  Q  |   W   |   E   |  R   |  T   |                 
+// |  A  |   S   |   D   |  F   |  G   |                 
+// |  Z  |   X   |   C   |  V   |  B   |                  
+//       |  ALT  |  GUI  |  1   |  2   |3  |  4  |			
+//                                     |  5  |  6  | 
             bindings = <
-                &kp X        &kp Y       &kp Z
-                &kp LCTRL    &kp LALT    &trans
+                &kp Q   &kp W   &kp E   &kp R   &kp T  
+                &kp A   &kp S   &kp D   &kp F   &kp G  
+                &kp Z   &kp X   &kp C   &kp V   &kp B 
+                        &kp ALT	&kp GUI	&kp 1   &kp 2   &kp 3   &kp 4
+                                                        &kp 5   &kp 6
             >;
     };
 };
