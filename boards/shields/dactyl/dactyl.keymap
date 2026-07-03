@@ -29,7 +29,7 @@
          &kp 1 &kp 2             						      &kp 9     &kp RALT
 						   &kp 3 &kp 4	   		&kp 2 &kp RCTRL
 						   &kp 5 &kp 6      	&kp 2 &kp GUI
-						   &kp 7 &kp 8      	&kp 2 &kp SHIFT
+						   &kp 7 &kp 8      	&kp 2 &kp RSHIFT
                         >;
                 };
                 lower_layer {
