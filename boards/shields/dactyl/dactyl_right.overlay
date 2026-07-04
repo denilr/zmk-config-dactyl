@@ -1,5 +1,4 @@
 #include "dactyl.dtsi" // The shared dtsi file is included in the overlay
-#include "dactyl-layouts.dtsi"
 
 
 &physical_layout0 {

@@ -8,7 +8,7 @@ requires:
 exposes:
 features:
   - keys
-  - display
 siblings:
   - dactyl_left
   - dactyl_right
+  - dactyl_dongle
