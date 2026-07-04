@@ -5,4 +5,4 @@ config SHIELD_DACTYL_RIGHT
 	def_bool $(shields_list_contains, dactyl_right)
 	
 config SHIELD_DACTYL_DONGLE
-    def_bool $(shields_list_contains,my_keyboard_dongle)	
+    def_bool $(shields_list_contains, dactyl_dongle)	
