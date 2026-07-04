@@ -18,6 +18,8 @@ config ZMK_BLE
 
 endif
 
+
+
 if SHIELD_DACTYL_DONGLE
 
 # Max 16 characters in keyboard name
@@ -27,6 +29,8 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+# Set this to the number of peripherals your dongle will have.
+# For a unibody, this would be 1. If you have left and right halves, set it to 2, etc.
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 2
 
