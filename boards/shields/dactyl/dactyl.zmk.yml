@@ -8,6 +8,7 @@ requires:
 exposes:
 features:
   - keys
+  - studio 
 siblings:
   - dactyl_left
   - dactyl_right
