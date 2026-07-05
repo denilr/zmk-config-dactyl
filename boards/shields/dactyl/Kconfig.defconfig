@@ -3,8 +3,8 @@ if SHIELD_DACTYL_LEFT
 config ZMK_KEYBOARD_NAME
 	default "DACTYL"
 
- config ZMK_SPLIT_ROLE_CENTRAL
-   default y
+# config ZMK_SPLIT_ROLE_CENTRAL
+#   default y
 	
 endif 
 
@@ -28,9 +28,6 @@ config ZMK_KEYBOARD_NAME
     default "DACTYL"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-	
-config ZMK_STUDIO
     default y
 
 # Set this to the number of peripherals your dongle will have.
