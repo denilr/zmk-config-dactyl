@@ -2,8 +2,8 @@ file_format: "1"
 id: dactyl
 name: Dactyl
 type: shield
-url: https://github.com/denilr/zmk-config-dactyl
-requires: [pro_micro]
+url: https://github.com/denilr/-zmk-config-dactyl_3x5-6
+requires: [nice_nano]
 exposes:
 features:
   - keys
