@@ -27,7 +27,7 @@
    &kp A 	&kp S 		&kp D 	&kp F 		&kp G  						 &kp H 		&kp J  		&kp K     &kp L   &kp SEMI 
    &kp Z 	&kp X 		&kp C 	&kp V 		&kp B  					 	 &kp N 		&kp M  		&kp COMMA &kp DOT &kp FSLH 
 			&kp "[" 	&kp "]" &kp LCTRL 	&kp LSHIFT  				 &kp N9 	&kp RALT 	&kp N2 	  &kp RCTRL
-			&kp N6 &	kp N5 	&mo 1  		&kp END				   	   	 &kp N2 	&kp GUI 	&kp N2 	  &kp RSHIFT
+			&kp N6 		&kp N5 	&mo 1  		&kp END				   	   	 &kp N2 	&kp GUI 	&kp N2 	  &kp RSHIFT
 						        	
 						         	
                         >;
