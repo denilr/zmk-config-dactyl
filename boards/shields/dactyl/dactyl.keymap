@@ -23,11 +23,11 @@
 //					 | CTRL | SHIFT |   	       |  LT  | SHIFT |
 //                   | CTRL | SHIFT |       	   |  LT  | SHIFT |					 
                         bindings = <
-   &kp Q &kp W &kp E &kp R &kp T  						 &kp Y &kp U  &kp I     &kp O   &kp P    
-   &kp A &kp S &kp D &kp F &kp G  						 &kp H &kp J  &kp K     &kp L   &kp SEMI 
-   &kp Z &kp X &kp C &kp V &kp B  					 	 &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
-         &kp N1 &kp N2 &kp N3 &kp N4  				     &kp N9 &kp RALT &kp N2 &kp RCTRL
-		 &kp N6 &kp N5 &mo 1  &mo 2				   	   	 &kp N2 &kp GUI &kp N2 &kp RSHIFT
+   &kp Q 	&kp W 		&kp E 	&kp R 		&kp T  						 &kp Y 		&kp U  		&kp I     &kp O   &kp P    
+   &kp A 	&kp S 		&kp D 	&kp F 		&kp G  						 &kp H 		&kp J  		&kp K     &kp L   &kp SEMI 
+   &kp Z 	&kp X 		&kp C 	&kp V 		&kp B  					 	 &kp N 		&kp M  		&kp COMMA &kp DOT &kp FSLH 
+			&kp "[" 	&kp "]" &kp LCTRL 	&kp LSHIFT  				 &kp N9 	&kp RALT 	&kp N2 	  &kp RCTRL
+			&kp N6 &	kp N5 	&mo 1  		&kp END				   	   	 &kp N2 	&kp GUI 	&kp N2 	  &kp RSHIFT
 						        	
 						         	
                         >;
@@ -39,8 +39,7 @@
    &kp A &kp S &kp D &kp F &kp G  						 &kp H &kp J  &kp K     &kp L   &kp SEMI 
    &kp Z &kp X &kp C &kp V &kp B  					 	 &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
          &kp N1 &kp N2 &kp N3 &kp N4  				     &kp N9 &kp RALT &kp N2 &kp RCTRL
-		 &kp N6 &kp N5 &mo 1  &mo 2				   	   	 &kp N2 &kp GUI &kp N2 &kp RSHIFT
-						        	       	
+		 &kp N6 &kp N5 &mo 1  &mo 2				   	   	 &kp N2 &kp GUI &kp N2 &kp RSHIFT						        	       	
 						>;    
                 };
 
